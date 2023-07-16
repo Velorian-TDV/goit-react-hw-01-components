@@ -1,2 +1,2 @@
 # goit-react-hw-01-components
-### GitHub Pages: 
+### GitHub Pages: https://velorian-tdv.github.io/goit-react-hw-01-components/
