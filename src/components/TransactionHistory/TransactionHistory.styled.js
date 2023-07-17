@@ -32,7 +32,7 @@ export const Table = styled.table`
         
         color: #464646;
         .type{
-            padding-left: 50px;
+            padding-left: 20px;
             text-transform: capitalize;
         }
 
