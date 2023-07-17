@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"; 
+import PropTypes from 'prop-types';
 
 function TransactionHistoryItem({type, amount, currency}) {
     return (
@@ -8,6 +9,12 @@ function TransactionHistoryItem({type, amount, currency}) {
             <td className="currency">{currency}</td>
         </tr>
     )
+}
+
+TransactionHistoryItem.propTypes = {
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+    currency: PropTypes.string.isRequired
 }
 
 export default TransactionHistoryItem;

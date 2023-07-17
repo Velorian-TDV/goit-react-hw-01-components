@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import { getRandomColor } from "../../utilityMethods/getRandomColor.js";
 
 function StatisticsItem({ label, percentage }) {
@@ -8,6 +9,11 @@ function StatisticsItem({ label, percentage }) {
             <span className="percentage">{percentage}%</span>
         </li>
     )
+}
+
+StatisticsItem.propTupes = {
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired
 }
 
 export default StatisticsItem;

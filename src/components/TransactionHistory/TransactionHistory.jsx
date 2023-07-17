@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import { Table, Wrapper } from './TransactionHistory.styled.js';
-import TransactionHistoryItem from "./TransactionHistoryItem.jsx";
+import TransactionHistoryItem from "../TransactionHistoryItem/TransactionHistoryItem.jsx";
 
 
 function TransactionHistory({ items }) {

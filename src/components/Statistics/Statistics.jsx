@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import { Wrapper, DataCard } from './Statistics.styled.js';
-import StatisticsItem from "./StatisticsItem.jsx";
+import StatisticsItem from "../StatisticsItem/StatisticsItem.jsx"
 
 function Statistics({ title, stats }) {
 

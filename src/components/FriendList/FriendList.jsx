@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Wrapper, Friends } from './FriendList.styled';
-import FriendListItem from './FriendListItem';
+import FriendListItem from '../FriendListItem/FriendListItem';
 
 function FriendList({ friends }) {
     return (
