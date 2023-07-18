@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes, { shape } from 'prop-types';
 import { Wrapper, Friends } from './FriendList.styled';
 import FriendListItem from '../FriendListItem/FriendListItem';
 
@@ -24,13 +24,10 @@ function FriendList({ friends }) {
 
 FriendList.propTypes = {
     friends: PropTypes.arrayOf(
-        PropTypes.shape({
+        shape({
             id: PropTypes.number.isRequired,
-            isOnline: PropTypes.bool.isRequired,
-            avatar: PropTypes.string.isRequired,
-            name: PropTypes.string.isRequired
         })
-    ).isRequired
+    )
 }
 
 export default FriendList;

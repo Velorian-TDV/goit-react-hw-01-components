@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 export const DataCard = styled.section`
 
     width: 300px;
-    height: 150px;
+    height: auto;
 
     border: 1px solid black;
 
@@ -25,7 +25,7 @@ export const DataCard = styled.section`
         justify-content: center;
         align-items: center;
 
-        height: 60%;
+        padding: 25px;
 
         color: gray;
         border-bottom: 1px solid black;
@@ -33,8 +33,6 @@ export const DataCard = styled.section`
 
     ul{
         display: flex;
-
-        height: 40%;
 
         list-style-type: none;
 
@@ -45,6 +43,8 @@ export const DataCard = styled.section`
             align-items: center;
 
             width: calc(100%/4);
+            padding: 10px;
+
             border-right: 1px solid black;
         
             &:last-child{
